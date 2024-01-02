@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "archaicraft:mythril_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "archaicraft:mythril_nugget"
+  }
+}

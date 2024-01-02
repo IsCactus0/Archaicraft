@@ -2,6 +2,7 @@ package net.iscactus.archaicraft.recipe;
 
 import com.google.gson.JsonObject;
 import net.iscactus.archaicraft.Archaicraft;
+import net.minecraft.core.NonNullList;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -30,6 +31,10 @@ public class MortarGrindingRecipe implements Recipe<SimpleContainer> {
         }
 
         return ingredient.test(container.getItem(0));
+    }
+
+    public Ingredient getIngredient() {
+        return ingredient;
     }
 
     @Override

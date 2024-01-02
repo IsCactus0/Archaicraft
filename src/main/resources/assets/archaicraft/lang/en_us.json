@@ -86,5 +86,10 @@
   "container.archaicraft.mortar": "Mortar",
   "container.archaicraft.kiln": "Kiln",
 
+  "gui.archaicraft.category.grinding.time": "%ss",
+  "gui.archaicraft.category.grinding.title": "Grinding",
+  "gui.archaicraft.category.mixing.time": "%ss",
+  "gui.archaicraft.category.mixing.title": "Mixing",
+
   "itemGroup.archaicraft.archaic": "Archaic"
 }

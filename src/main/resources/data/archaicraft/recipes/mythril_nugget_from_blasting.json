@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "archaicraft:mythril_pickaxe"
+    },
+    {
+      "item": "archaicraft:mythril_shovel"
+    },
+    {
+      "item": "archaicraft:mythril_axe"
+    },
+    {
+      "item": "archaicraft:mythril_hoe"
+    },
+    {
+      "item": "archaicraft:mythril_sword"
+    },
+    {
+      "item": "archaicraft:mythril_helmet"
+    },
+    {
+      "item": "archaicraft:mythril_chestplate"
+    },
+    {
+      "item": "archaicraft:mythril_leggings"
+    },
+    {
+      "item": "archaicraft:mythril_boots"
+    },
+    {
+      "item": "archaicraft:mythril_horse_armor"
+    }
+  ],
+  "result": "archaicraft:mythril_nugget"
+}

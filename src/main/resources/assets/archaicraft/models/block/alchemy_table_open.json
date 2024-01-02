@@ -1,12 +1,12 @@
 {
 	"textures": {
-		"front": "archicraft:block/alchemy_table_front",
-		"back": "archicraft:block/alchemy_table_back",
-		"drawer": "archicraft:block/alchemy_table_drawer",
-		"bottom": "archicraft:block/alchemy_table_bottom",
-		"side": "archicraft:block/alchemy_table_side",
-		"top": "archicraft:block/alchemy_table_top",
-		"particle": "archicraft:block/alchemy_table_side"
+		"front": "archaicraft:block/alchemy_table_front",
+		"back": "archaicraft:block/alchemy_table_back",
+		"drawer": "archaicraft:block/alchemy_table_drawer",
+		"bottom": "archaicraft:block/alchemy_table_bottom",
+		"side": "archaicraft:block/alchemy_table_side",
+		"top": "archaicraft:block/alchemy_table_top",
+		"particle": "archaicraft:block/alchemy_table_side"
 	},
 	"elements": [
 		{

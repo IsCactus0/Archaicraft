@@ -1,0 +1,152 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mythril_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_horse_armor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mythril_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "archaicraft:mythril_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "archaicraft:mythril_nugget_from_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mythril_pickaxe",
+      "has_mythril_shovel",
+      "has_mythril_axe",
+      "has_mythril_hoe",
+      "has_mythril_sword",
+      "has_mythril_helmet",
+      "has_mythril_chestplate",
+      "has_mythril_leggings",
+      "has_mythril_boots",
+      "has_mythril_horse_armor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "archaicraft:mythril_nugget_from_blasting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

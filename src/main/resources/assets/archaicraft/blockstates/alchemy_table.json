@@ -1,18 +1,33 @@
 {
   "variants": {
-    "facing=east": {
+    "facing=east,open=false": {
       "model": "archaicraft:block/alchemy_table",
       "y": 90
     },
-    "facing=north": {
+    "facing=east,open=true": {
+      "model": "archaicraft:block/alchemy_table_open",
+      "y": 90
+    },
+    "facing=north,open=false": {
       "model": "archaicraft:block/alchemy_table"
     },
-    "facing=south": {
+    "facing=north,open=true": {
+      "model": "archaicraft:block/alchemy_table_open"
+    },
+    "facing=south,open=false": {
       "model": "archaicraft:block/alchemy_table",
       "y": 180
     },
-    "facing=west": {
+    "facing=south,open=true": {
+      "model": "archaicraft:block/alchemy_table_open",
+      "y": 180
+    },
+    "facing=west,open=false": {
       "model": "archaicraft:block/alchemy_table",
+      "y": 270
+    },
+    "facing=west,open=true": {
+      "model": "archaicraft:block/alchemy_table_open",
       "y": 270
     }
   }

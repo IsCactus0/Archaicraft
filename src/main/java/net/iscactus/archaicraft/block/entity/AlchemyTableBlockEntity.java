@@ -1,9 +1,9 @@
 package net.iscactus.archaicraft.block.entity;
 
 import net.iscactus.archaicraft.Archaicraft;
-import net.iscactus.archaicraft.item.ModItems;
+import net.iscactus.archaicraft.recipe.AlchemyMixingRecipe;
 import net.iscactus.archaicraft.recipe.MortarGrindingRecipe;
-import net.iscactus.archaicraft.screen.MortarMenu;
+import net.iscactus.archaicraft.screen.AlchemyTableMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -30,24 +30,23 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
-public class MortarBlockEntity extends BlockEntity implements MenuProvider {
-    private final ItemStackHandler itemHandler = new ItemStackHandler(2);
+public class AlchemyTableBlockEntity extends BlockEntity implements MenuProvider {
+    private final ItemStackHandler itemHandler = new ItemStackHandler(13);
     private LazyOptional<IItemHandler> lazyItemHandler = LazyOptional.empty();
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 80;
+    private int maxProgress = 200;
 
-    private static final int INPUT_SLOT = 0;
-    private static final int OUTPUT_SLOT = 1;
+    private static final int OUTPUT_SLOT = 3;
 
-    public MortarBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.MORTAR.get(), pos, state);
+    public AlchemyTableBlockEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntities.ALCHEMY_TABLE.get(), pos, state);
         this.data = new ContainerData() {
             @Override
             public int get(int index) {
                 return switch (index) {
-                    case 0 -> MortarBlockEntity.this.progress;
-                    case 1 -> MortarBlockEntity.this.maxProgress;
+                    case 0 -> AlchemyTableBlockEntity.this.progress;
+                    case 1 -> AlchemyTableBlockEntity.this.maxProgress;
                     default -> 0;
                 };
             }
@@ -55,8 +54,8 @@ public class MortarBlockEntity extends BlockEntity implements MenuProvider {
             @Override
             public void set(int index, int value) {
                 switch (index) {
-                    case 0 -> MortarBlockEntity.this.progress = value;
-                    case 1 -> MortarBlockEntity.this.maxProgress = value;
+                    case 0 -> AlchemyTableBlockEntity.this.progress = value;
+                    case 1 -> AlchemyTableBlockEntity.this.maxProgress = value;
                 };
             }
 
@@ -99,19 +98,19 @@ public class MortarBlockEntity extends BlockEntity implements MenuProvider {
 
     @Override
     public Component getDisplayName() {
-        return Component.translatable("container." + Archaicraft.MODID + ".mortar");
+        return Component.translatable("container." + Archaicraft.MODID + ".alchemy_table");
     }
 
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int containerId, Inventory playerInventory, Player player) {
-        return new MortarMenu(containerId, playerInventory, this, this.data);
+        return new AlchemyTableMenu(containerId, playerInventory, this, this.data);
     }
 
     @Override
     protected void saveAdditional(CompoundTag nbt) {
         nbt.put("inventory", itemHandler.serializeNBT());
-        nbt.putInt("mortar.progress", progress);
+        nbt.putInt("alchemy_table.progress", progress);
 
         super.saveAdditional(nbt);
     }
@@ -120,7 +119,7 @@ public class MortarBlockEntity extends BlockEntity implements MenuProvider {
     public void load(CompoundTag nbt) {
         super.load(nbt);
         itemHandler.deserializeNBT(nbt.getCompound("inventory"));
-        progress = nbt.getInt("mortar.progress");
+        progress = nbt.getInt("alchemy_table.progress");
     }
 
     public void tick(Level level, BlockPos pos, BlockState state) {
@@ -142,10 +141,13 @@ public class MortarBlockEntity extends BlockEntity implements MenuProvider {
     }
 
     private void craftItem() {
-        Optional<MortarGrindingRecipe> recipe = getCurrentRecipe();
+        Optional<AlchemyMixingRecipe> recipe = getCurrentRecipe();
         ItemStack result = recipe.get().getResultItem(null);
 
-        this.itemHandler.extractItem(INPUT_SLOT, 1, false);
+        for (int i = 0; i < recipe.get().getIngredients().size(); i++) {
+            this.itemHandler.extractItem(i, 1, false);
+        }
+
         this.itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem(),
                 this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
     }
@@ -167,7 +169,7 @@ public class MortarBlockEntity extends BlockEntity implements MenuProvider {
     }
 
     private boolean hasRecipe() {
-        Optional<MortarGrindingRecipe> recipe = getCurrentRecipe();
+        Optional<AlchemyMixingRecipe> recipe = getCurrentRecipe();
 
         if (recipe.isEmpty()) {
             return false;
@@ -178,12 +180,12 @@ public class MortarBlockEntity extends BlockEntity implements MenuProvider {
         return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
     }
 
-    private Optional<MortarGrindingRecipe> getCurrentRecipe() {
+    private Optional<AlchemyMixingRecipe> getCurrentRecipe() {
         SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
         for (int i = 0; i < itemHandler.getSlots(); i++) {
             inventory.setItem(i, this.itemHandler.getStackInSlot(i));
         }
 
-        return this.level.getRecipeManager().getRecipeFor(MortarGrindingRecipe.Type.INSTANCE, inventory, level);
+        return this.level.getRecipeManager().getRecipeFor(AlchemyMixingRecipe.Type.INSTANCE, inventory, level);
     }
 }

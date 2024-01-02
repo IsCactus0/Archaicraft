@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "boat",
   "key": {
     "#": {
-      "tag": "forge:stone"
+      "item": "archaicraft:bittersweet_planks"
     }
   },
   "pattern": [
     "# #",
-    " # "
+    "###"
   ],
   "result": {
-    "count": 1,
-    "item": "archaicraft:mortar"
+    "item": "archaicraft:bittersweet_boat"
   },
   "show_notification": true
 }

@@ -17,6 +17,11 @@ public class ModBlockEntities {
                     BlockEntityType.Builder.of(MortarBlockEntity::new,
                             ModBlocks.MORTAR.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<AlchemyTableBlockEntity>> ALCHEMY_TABLE =
+            BLOCK_ENTITIES.register("alchemy_table", () ->
+                    BlockEntityType.Builder.of(AlchemyTableBlockEntity::new,
+                            ModBlocks.ALCHEMY_TABLE.get()).build(null));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

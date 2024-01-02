@@ -7,6 +7,7 @@ import net.iscactus.archaicraft.entity.client.GolemRenderer;
 import net.iscactus.archaicraft.item.ModCreativeModeTabs;
 import net.iscactus.archaicraft.item.ModItems;
 import net.iscactus.archaicraft.recipe.ModRecipes;
+import net.iscactus.archaicraft.screen.AlchemyTableScreen;
 import net.iscactus.archaicraft.screen.ModMenuTypes;
 import net.iscactus.archaicraft.screen.MortarScreen;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -68,6 +69,7 @@ public class Archaicraft {
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.GOLEM.get(), GolemRenderer::new);
 
+            MenuScreens.register(ModMenuTypes.ALCHEMY_TABLE_MENU.get(), AlchemyTableScreen::new);
             MenuScreens.register(ModMenuTypes.MORTAR_MENU.get(), MortarScreen::new);
         }
     }
