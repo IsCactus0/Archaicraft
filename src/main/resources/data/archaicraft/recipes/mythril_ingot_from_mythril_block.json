@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mythril_ingot",
+  "ingredients": [
+    {
+      "item": "archaicraft:mythril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "archaicraft:mythril_ingot"
+  }
+}

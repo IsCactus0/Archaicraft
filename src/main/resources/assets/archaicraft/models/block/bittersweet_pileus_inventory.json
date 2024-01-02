@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "archaicraft:block/bittersweet_gills",
+    "side": "archaicraft:block/bittersweet_pileus_side",
+    "top": "archaicraft:block/bittersweet_pileus_top"
+  }
+}

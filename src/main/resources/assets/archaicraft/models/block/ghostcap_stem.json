@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "archaicraft:block/ghostcap_stem_top",
+    "side": "archaicraft:block/ghostcap_stem"
+  }
+}

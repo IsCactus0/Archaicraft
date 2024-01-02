@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "#S#",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "archaicraft:alchemy_table"
+  },
+  "show_notification": true
+}

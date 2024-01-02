@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stone_bricks"
+    },
+    "W": {
+      "item": "minecraft:stone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "WIW",
+    "WXW",
+    "###"
+  ],
+  "result": {
+    "item": "archaicraft:kiln"
+  },
+  "show_notification": true
+}

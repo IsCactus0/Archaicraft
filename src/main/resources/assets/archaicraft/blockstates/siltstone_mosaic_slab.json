@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "archaicraft:block/siltstone_mosaic_slab"
+    },
+    "type=double": {
+      "model": "archaicraft:block/siltstone_mosaic"
+    },
+    "type=top": {
+      "model": "archaicraft:block/siltstone_mosaic_slab_top"
+    }
+  }
+}

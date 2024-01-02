@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "archaicraft:block/mortar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "archaicraft:block/mortar"
+    },
+    "facing=south": {
+      "model": "archaicraft:block/mortar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "archaicraft:block/mortar",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mythril_ingot",
+  "key": {
+    "#": {
+      "item": "archaicraft:mythril_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "archaicraft:mythril_ingot"
+  },
+  "show_notification": true
+}

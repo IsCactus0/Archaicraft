@@ -1,0 +1,18 @@
+{
+	"render_type": "minecraft:cutout",
+	"ambientocclusion": false,
+	"textures": {
+		"vines": "archaicraft:block/ivy_vines",
+		"particle": "archaicraft:block/ivy_vines"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.1],
+			"to": [16, 16, 0.1],
+			"faces": {
+				"north": { "uv": [ 16, 0, 0, 16 ], "texture": "#vines" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#vines" }
+			}
+		}
+	]
+}

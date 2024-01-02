@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "archaicraft:siltstone_mosaic"
+  },
+  "result": "archaicraft:siltstone_mosaic_slab"
+}

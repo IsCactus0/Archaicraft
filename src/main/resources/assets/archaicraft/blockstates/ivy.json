@@ -1,0 +1,51 @@
+{
+  "multipart": [
+    { "apply": { "model": "archaicraft:block/ivy" }, "when": { "north": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves" }, "when": { "leafed": "true", "north": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit" }, "when": { "fruit": "true", "north": "true" }},
+
+    { "apply": { "model": "archaicraft:block/ivy" }, "when": { "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves" }, "when": { "leafed": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit" }, "when": { "fruit": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "y": 90 }, "when": { "east": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "y": 90 }, "when": { "leafed": "true", "east": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "y": 90 }, "when": { "fruit": "true", "east": "true" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "y": 90 }, "when": { "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "y": 90 }, "when": { "leafed": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "y": 90 }, "when": { "fruit": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "y": 180 }, "when": { "south": "true" } },
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "y": 180 }, "when": { "leafed": "true", "south": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "y": 180 }, "when": { "fruit": "true", "south": "true" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "y": 180 }, "when": { "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "y": 180 }, "when": { "leafed": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "y": 180 }, "when": { "fruit": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "y": 270 }, "when": { "west": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "y": 270 }, "when": { "leafed": "true", "west": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "y": 270 }, "when": { "fruit": "true", "west": "true" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "y": 270 }, "when": { "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "y": 270 }, "when": { "leafed": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "y": 270 }, "when": { "fruit": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "x": 270 }, "when": { "up": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "x": 270 }, "when": { "leafed": "true", "up": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "x": 270 }, "when": { "fruit": "true", "up": "true" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "x": 270 }, "when": { "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "x": 270 }, "when": { "leafed": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "x": 270 }, "when": { "fruit": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "x": 90 }, "when": { "down": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "x": 90 }, "when": { "leafed": "true", "down": "true" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "x": 90 }, "when": { "fruit": "true", "down": "true" }},
+
+    { "apply": { "model": "archaicraft:block/ivy", "uvlock": true, "x": 90 }, "when": { "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_leaves", "uvlock": true, "x": 90 }, "when": { "leafed": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }},
+    { "apply": { "model": "archaicraft:block/ivy_fruit", "uvlock": true, "x": 90 }, "when": { "fruit": "true", "down": "false", "east": "false", "north": "false", "south": "false", "up": "false", "west": "false" }}
+  ]
+}

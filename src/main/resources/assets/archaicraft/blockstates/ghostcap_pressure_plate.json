@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "archaicraft:block/ghostcap_pressure_plate"
+    },
+    "powered=true": {
+      "model": "archaicraft:block/ghostcap_pressure_plate_down"
+    }
+  }
+}

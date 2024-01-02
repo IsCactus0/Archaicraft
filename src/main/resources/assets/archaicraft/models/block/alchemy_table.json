@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "archaicraft:block/alchemy_table_bottom",
+    "east": "archaicraft:block/alchemy_table_side",
+    "north": "archaicraft:block/alchemy_table_front",
+    "particle": "archaicraft:block/alchemy_table_side",
+    "south": "archaicraft:block/alchemy_table_back",
+    "up": "archaicraft:block/alchemy_table_top",
+    "west": "archaicraft:block/alchemy_table_side"
+  }
+}

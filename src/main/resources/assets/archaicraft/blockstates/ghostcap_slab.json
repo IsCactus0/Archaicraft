@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "archaicraft:block/ghostcap_slab"
+    },
+    "type=double": {
+      "model": "archaicraft:block/ghostcap_planks"
+    },
+    "type=top": {
+      "model": "archaicraft:block/ghostcap_slab_top"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "archaicraft:block/kiln_bottom",
+    "front": "archaicraft:block/kiln_front_on",
+    "side": "archaicraft:block/kiln_side",
+    "top": "archaicraft:block/kiln_top_on"
+  }
+}

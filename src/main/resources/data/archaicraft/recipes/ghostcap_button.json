@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "archaicraft:ghostcap_planks"
+    }
+  ],
+  "result": {
+    "item": "archaicraft:ghostcap_button"
+  }
+}

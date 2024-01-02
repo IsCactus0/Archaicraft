@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "archaicraft:block/ghostcap_planks",
+    "side": "archaicraft:block/ghostcap_planks",
+    "top": "archaicraft:block/ghostcap_planks"
+  }
+}

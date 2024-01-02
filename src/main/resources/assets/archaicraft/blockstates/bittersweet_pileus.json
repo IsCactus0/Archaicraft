@@ -1,0 +1,18 @@
+{
+  "multipart": [
+    { "when": { "north": "true", "down": "true" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_side", "uvlock": true }},
+    { "when": { "north": "true", "down": "false" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_top", "uvlock": true }},
+
+    { "when": { "east": "true", "down": "true"  }, "apply": { "model": "archaicraft:block/bittersweet_pileus_side", "y": 90, "uvlock": true }},
+    { "when": { "east": "true", "down": "false"  }, "apply": { "model": "archaicraft:block/bittersweet_pileus_top", "y": 90, "uvlock": true }},
+
+    { "when": { "south": "true", "down": "true" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_side", "y": 180, "uvlock": true }},
+    { "when": { "south": "true", "down": "false" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_top", "y": 180, "uvlock": true }},
+
+    { "when": { "west": "true", "down": "true" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_side", "y": 270, "uvlock": true }},
+    { "when": { "west": "true", "down": "false" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_top", "y": 270, "uvlock": true }},
+
+    { "when": { "up": "true" }, "apply": { "model": "archaicraft:block/bittersweet_pileus_top", "x": 270, "uvlock": true }},
+    { "apply": { "model": "archaicraft:block/bittersweet_pileus_inside", "x": 90, "uvlock": true }}
+  ]
+}

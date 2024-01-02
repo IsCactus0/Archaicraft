@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "archaicraft:block/siltstone_slab"
+    },
+    "type=double": {
+      "model": "archaicraft:block/siltstone"
+    },
+    "type=top": {
+      "model": "archaicraft:block/siltstone_slab_top"
+    }
+  }
+}

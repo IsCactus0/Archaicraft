@@ -1,0 +1,12 @@
+{
+  "type": "archaicraft:mortar_grinding",
+  "category": "misc",
+  "ingredient": {
+    "item": "archaicraft:aloe_leaf"
+  },
+  "result": {
+    "count": 3,
+    "item": "archaicraft:aloe_salve"
+  },
+  "show_notification": true
+}

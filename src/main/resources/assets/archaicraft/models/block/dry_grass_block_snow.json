@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "archaicraft:block/silt",
+    "particle": "archaicraft:block/silt",
+    "side": "archaicraft:block/dry_grass_block_snow",
+    "top": "archaicraft:block/dry_grass_block_top"
+  }
+}

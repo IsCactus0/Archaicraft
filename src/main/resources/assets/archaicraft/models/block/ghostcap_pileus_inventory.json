@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "archaicraft:block/ghostcap_roots",
+    "side": "archaicraft:block/ghostcap_pileus_side",
+    "top": "archaicraft:block/ghostcap_pileus_top"
+  }
+}

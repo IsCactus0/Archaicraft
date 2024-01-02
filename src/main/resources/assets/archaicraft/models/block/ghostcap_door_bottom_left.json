@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "archaicraft:block/ghostcap_door_bottom",
+    "top": "archaicraft:block/ghostcap_door_top"
+  }
+}

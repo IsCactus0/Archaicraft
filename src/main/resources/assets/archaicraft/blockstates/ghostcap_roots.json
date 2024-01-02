@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "archaicraft:block/ghostcap_roots_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "archaicraft:block/ghostcap_roots"
+    },
+    "axis=z": {
+      "model": "archaicraft:block/ghostcap_roots_horizontal",
+      "x": 90
+    }
+  }
+}

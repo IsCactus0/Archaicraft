@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "archaicraft:block/siltstone"
+      },
+      {
+        "model": "archaicraft:block/siltstone",
+        "y": 90
+      },
+      {
+        "model": "archaicraft:block/siltstone",
+        "y": 180
+      },
+      {
+        "model": "archaicraft:block/siltstone",
+        "y": 270
+      }
+    ]
+  }
+}

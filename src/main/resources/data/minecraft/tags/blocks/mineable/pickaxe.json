@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "archaicraft:kiln",
+    "archaicraft:mortar",
+    "archaicraft:mythril_ore",
+    "archaicraft:raw_mythril_block",
+    "archaicraft:mythril_block",
+    "archaicraft:siltstone",
+    "archaicraft:siltstone_bricks",
+    "archaicraft:siltstone_mosaic"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "archaicraft:siltstone_slab",
+    "archaicraft:siltstone_brick_slab",
+    "archaicraft:siltstone_mosaic_slab"
+  ]
+}

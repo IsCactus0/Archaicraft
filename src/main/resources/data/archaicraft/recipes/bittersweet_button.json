@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "archaicraft:bittersweet_planks"
+    }
+  ],
+  "result": {
+    "item": "archaicraft:bittersweet_button"
+  }
+}

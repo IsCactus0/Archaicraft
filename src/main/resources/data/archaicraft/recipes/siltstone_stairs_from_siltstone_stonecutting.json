@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "archaicraft:siltstone"
+  },
+  "result": "archaicraft:siltstone_stairs"
+}

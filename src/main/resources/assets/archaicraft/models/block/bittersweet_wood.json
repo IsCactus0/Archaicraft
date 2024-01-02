@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "archaicraft:block/bittersweet_stem",
+    "side": "archaicraft:block/bittersweet_stem"
+  }
+}

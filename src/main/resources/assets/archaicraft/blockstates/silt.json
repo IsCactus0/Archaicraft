@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "archaicraft:block/silt"
+      },
+      {
+        "model": "archaicraft:block/silt",
+        "y": 90
+      },
+      {
+        "model": "archaicraft:block/silt",
+        "y": 180
+      },
+      {
+        "model": "archaicraft:block/silt",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "archaicraft:mythril_helmet",
+    "archaicraft:mythril_chestplate",
+    "archaicraft:mythril_leggings",
+    "archaicraft:mythril_boots"
+  ]
+}
